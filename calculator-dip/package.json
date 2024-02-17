@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "example-1": "npx tsx src/example-1/main",
+    "example-2": "npx tsx src/example-2/main",
+    "example-3": "npx tsx src/example-3/main",
+    "example-4": "npx tsx src/example-4/main",
+    "example-5": "npx tsx src/example-5/main"
+  },
   "devDependencies": {
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
