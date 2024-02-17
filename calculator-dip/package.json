@@ -1,0 +1,13 @@
+{
+  "name": "calculator-dip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mathjs": "^12.3.2"
+  }
+}
