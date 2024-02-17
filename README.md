@@ -41,30 +41,52 @@ npm run interfaces
 
 Existem cinco exemplos dentro da pasta `calculator-dip`. Para rodar cada um dos exemplos, entre na pasta `calculator-dip` pelo terminal e rode os comandos:
 
+**Exemplo 1**
+
+Tratamos sobre o problema de acoplamento forte que existe entre as classes.
+
 ```bash
 npm run example-1
 
 ```
+
+**Exemplo 2**
+
+Evidenciamos o problema vendo na prática como a criação de outras implementações das classes podem dificultar na refatoração quando estamos num contexto de forte acoplamento.
 
 ```bash
 npm run example-2
 
 ```
 
+**Exemplo 3**
+
+Aplicamos o Dependency Injection (DI) para retirar a responsabilidade da classe Calculator de instanciar objetos das outras classes.
+
 ```bash
 npm run example-3
 
 ```
+
+**Exemplo 4**
+
+Aplicamos o Dependency Inversion Principle (DIP) para inverter a dependência que o Calculator tem das outras classes, agora passando a depender de interfaces.
 
 ```bash
 npm run example-4
 
 ```
 
+**Exemplo 5**
+
+Finalizamos aplicando o Inversion of Control (IoC) para tirar a responsabilidade da parte principal da aplicação de instanciar as dependências e injetar manualmente na criação do Calculator. Para isso, utilizamos também um padrão de projeto chamado Factory, onde centralizamos a criação do Calculator e abstraímos a injeção manual das dependências.
+
 ```bash
 npm run example-5
 
 ```
+
+Uma boa extensão desse projeto é utilizar bibliotecas como o [TSyringe](https://www.npmjs.com/package/tsyringe) para fazer injeções de dependências de forma mais organizada e otimizada utilizando outros padrões como o `Singleton`. Ou utilizar o framework [Nest.js](https://nestjs.com/) para realizar as injeções de dependências de forma automática.
 
 # Conteúdos
 
