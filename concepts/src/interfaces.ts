@@ -4,4 +4,5 @@ class Motorcycle implements IMotorcycle {}
 
 const m = new Motorcycle();
 
-console.log(m instanceof IMotorcycle);
+// Demonstra um erro
+// console.log(m instanceof IMotorcycle);
