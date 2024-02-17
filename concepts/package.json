@@ -2,5 +2,9 @@
   "name": "concepts",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "abstract-class": "npx tsx src/abstract-class.ts",
+    "interfaces": "npx tsx src/interfaces.ts"
+  }
 }
